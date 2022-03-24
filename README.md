@@ -22,4 +22,15 @@ To start the application, use command:
 
 #Tests
 To run test use either npm/yarn (`npm test` or `yarn test`) or IDE integrated test runner (for example IntelliJ test runner is more user-friendly than npm/yarn tools)
-    
+
+##Tests examples
+The codebase contains different kinds of tests for frontend logic and components. This includes 
+* Components unit tests: group `Loader label test` in  `src/components/utils/Loader.test.tsx`
+* Snapshot tests: group `App snapshot tests` in `src/components/App.test.tsx`. This includes
+  * inline snapshots
+  * file snapshots
+  * component mocking
+* API unit tests: `src/logic/api.test.ts`. This includes API mocks
+* Integration tests: `src/components/employeeList/EmployeeList.test.tsx`. This includes
+  * API mocks
+  * verification proper API calls were called
