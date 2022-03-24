@@ -2,7 +2,7 @@
 This is a simple application consisting of simple API consumption - CRD operations are included.
 The purpose of this application is to show examples of different kinds of test in react application.
 
-##Libraries used:
+## Libraries used:
 * react
 * testing-library (https://testing-library.com/docs/react-testing-library/intro/)
 * msw (https://mswjs.io/)
@@ -20,10 +20,10 @@ To start the mock server use command:
 To start the application, use command:
 `npm start` or `yarn start`
 
-#Tests
+# Tests
 To run test use either npm/yarn (`npm test` or `yarn test`) or IDE integrated test runner (for example IntelliJ test runner is more user-friendly than npm/yarn tools)
 
-##Tests examples
+## Tests examples
 The codebase contains different kinds of tests for frontend logic and components. This includes 
 * Components unit tests: group `Loader label test` in  `src/components/utils/Loader.test.tsx`
 * Snapshot tests: group `App snapshot tests` in `src/components/App.test.tsx`. This includes
