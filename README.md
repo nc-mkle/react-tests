@@ -6,7 +6,7 @@ The purpose of this application is to show examples of different kinds of test i
 * react
 * testing-library (https://testing-library.com/docs/react-testing-library/intro/)
 * msw (https://mswjs.io/)
-* json-server
+* json-server (https://www.npmjs.com/package/json-server)
 
 # Installing
 Install the app with your favorite package manager (commands `npm i` or `yarn`)
